@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registrazione dati utenti</title>
+</head>
+<body>
+    <h1>Registrazione Utente</h1>
+    <form onsubmit="alert('Registrazione inviata!')">
+        <div>
+            <input type="text" placeholder="Nome" required>
+        </div>
+        <div>
+            <input type="text" placeholder="Cognome" required>
+        </div>
+        <div>
+            <input type="email" placeholder="Email" required>
+        </div>
+        <div>
+            <input type="password" placeholder="Password" required>
+        </div>
+        <div>
+            <input type="date" placeholder="Data di Nascita" required>
+        </div>
+        <div>
+            <input type="number" placeholder="Numero di Telefono" required>
+        </div>
+        <div>
+            <label>Gusti Musicali:</label><br>
+            <input type="checkbox">
+            <label for="rock">Rock</label>
+            <input type="checkbox" >
+            <label for="pop">Pop</label>
+            <input type="checkbox">
+            <label for="jazz">Jazz</label>
+            <input type="checkbox">
+            <label for="classica">Classica</label>
+        </div>
+        <div>
+            <label>Accetta i Termini:</label><br>
+            <input type="radio" required>
+            <label for="accetta">Accetto</label>
+        </div>
+        <div>
+            <button type="submit">Invia Registrazione</button>
+        </div>
+    </form>
+</body>
+</html>

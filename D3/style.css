@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;1,600&family=Prata&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url('img/taal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Prata', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Prata', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 400;
+}
+
+p a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(310dg, #1da728, #15e40e); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+    text-decoration: none;
+    color: #1da728; /* Colore corrispondente al gradiente */
+}
+
+ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
